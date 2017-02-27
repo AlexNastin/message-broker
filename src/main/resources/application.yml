@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: default
+  rabbitmq:
+    host: localhost
+
+logging:
+  level:
+    org: INFO
+
+
+test:
+  client:
+    duration: 10000
